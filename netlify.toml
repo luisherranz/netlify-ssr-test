@@ -5,19 +5,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "/.netlify/functions/new"
+  to = "/.netlify/functions/server"
   status = 200
-  [redirects.headers]
-    X-From = "Redirect"
-
-[[headers]]
-  for = "/*"
-
-  [headers.values]
-    X-Custom = "Custom header"
-
-    cache-control = '''
-    max-age=0,
-    no-cache,
-    no-store,
-    must-revalidate'''
