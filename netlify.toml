@@ -4,6 +4,6 @@
   functions = "src/functions"
 
 [[redirects]]
-  from = "/new"
+  from = "/*"
   to = "/.netlify/functions/new"
   status = 200
