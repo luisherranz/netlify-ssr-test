@@ -7,12 +7,14 @@
   from = "/*"
   to = "/.netlify/functions/new"
   status = 200
+  [redirects.headers]
+    X-From = "Redirect"
 
 [[headers]]
   for = "/*"
 
   [headers.values]
-    X-Thing = "CUSTOM HEADER"
+    X-Custom = "Custom header"
 
     cache-control = '''
     max-age=0,
