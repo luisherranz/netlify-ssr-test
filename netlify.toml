@@ -1,7 +1,7 @@
 [build]
   command = "npm run build"
   publish = "build/static"
-  functions = "src/functions"
+  functions = "build/server.js"
 
 [[redirects]]
   from = "/static/*"
