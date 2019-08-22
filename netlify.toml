@@ -7,3 +7,11 @@
   from = "/*"
   to = "/.netlify/functions/new"
   status = 200
+
+[[headers]]
+  for = "/*"
+
+  [headers.values]
+    cache-control = '''
+      max-age=30,
+      '''
