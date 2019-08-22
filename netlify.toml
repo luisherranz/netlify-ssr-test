@@ -12,6 +12,8 @@
   for = "/*"
 
   [headers.values]
+    X-Thing = "CUSTOM HEADER"
+
     cache-control = '''
     max-age=0,
     no-cache,
