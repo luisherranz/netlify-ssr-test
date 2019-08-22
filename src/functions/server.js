@@ -4,7 +4,7 @@ exports.handler = (event, context, callback) => {
       statusCode: 200,
       body: "dynamic page: " + Math.random(),
       headers: {
-        "Cache-Control": "public, s-maxage=15, stale-while-revalidate"
+        "Cache-Control": "public, s-maxage=15, stale-while-revalidate=300"
       }
     });
   }, 3000);
