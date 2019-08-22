@@ -1,0 +1,20 @@
+{
+  "name": "netlify-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'nothing yet'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisherranz/netlify-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisherranz/netlify-tests/issues"
+  },
+  "homepage": "https://github.com/luisherranz/netlify-tests#readme"
+}
